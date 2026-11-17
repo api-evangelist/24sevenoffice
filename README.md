@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Finago provides cloud‑based accounting, payroll, time‑tracking and business management software for Norwegian and Scandinavian enterprises. The platform integrates invoicing, bookkeeping, employee payroll, project management and reporting in a single system, offering REST and SOAP APIs for developers to automate data flows, retrieve financial records, and embed Finago functionality into third‑party applications. Finago emphasizes security, compliance with local regulations, and extensive developer documentation, including API reference, SDKs, and integration guides.
+Finago provides cloud‑based accounting, payroll, time‑tracking and business management solutions for companies in Norway, Sweden and Finland. Their platform integrates bookkeeping, payroll, invoicing and project management, aiming to free users to focus on growth. Finago emphasizes a partner approach, offering scalable, secure services backed by a team of over 1,000 employees across multiple offices.
 
-**Areas:** Accounting · Payroll · Business Management · SaaS · Norway
+**Areas:** Accounting · Payroll · Business Management · Norway · Sweden · Finland
 
 ## Finago on APIs.io
 
@@ -74,18 +74,20 @@ Everything profiled for Finago is published on APIs.io rather than in this repos
 
 ### APIs (2)
 
-- [Finago REST API](https://apis.io/apis/24sevenoffice/finago-rest-api/) — Finago provides a REST API for accounting, payroll and business management operations, documented at the developer portal.
-- [Finago API](https://apis.io/apis/24sevenoffice/24sevenoffice-api/) — Finago API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-11-16); not the provider's own document.
+- [Finago REST API](https://apis.io/apis/24sevenoffice/finago-rest-api/) — Finago provides a REST API for accounting, payroll, invoicing and related operations as described on the developer portal.
+- [Finago API](https://apis.io/apis/24sevenoffice/24sevenoffice-api/) — Finago API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-11-17); not the provider's own document.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### JSON Schema (1)
+#### JSON Schema (3)
 
 The data models the API reads and writes.
 
+- [GetAccountbalancesResponse](https://apis.io/schemas/24sevenoffice/24sevenoffice-get-accountbalances-response/)
 - [GetCustomersResponse](https://apis.io/schemas/24sevenoffice/24sevenoffice-get-customers-response/)
+- [GetV1AccountbalancesResponse](https://apis.io/schemas/24sevenoffice/24sevenoffice-get-v1-accountbalances-response/)
 
 #### JSON-LD (1)
 
@@ -106,38 +108,30 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Finago Authentication](https://apis.io/security/24sevenoffice/24sevenoffice-authentication/)
 - [Finago Domain Security](https://apis.io/security/24sevenoffice/24sevenoffice-domain-security/)
 
-#### OAuth scopes (1)
-
-The permissions the API asks for.
-
-- [Finago Scopes](https://apis.io/scopes/24sevenoffice/24sevenoffice-scopes/)
-
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://finago.no/)
-- [Documentation](https://finago.no/developer?hsLang=no)
-- [API reference](https://finago.no/developer/rest-api?hsLang=en)
-- [Support](https://finago.no/support?hsLang=no)
+- [Support](https://finago.no/sv/support/kom)
 - [Trust centre](https://finago.no/trust-center/compliance)
 - [Terms of service](https://finago.no/developer/terms-conditions?hsLang=en)
 - [Privacy policy](https://finago.no/trust-center/personvern?hsLang=no)
 
 ## API Evangelist rating
 
-**Kin Score 40.9** — developing · rubric 0.28.0 · scored 2026-11-17
+**Kin Score 39.5** — developing · rubric 0.27.0 · scored 2026-11-17
 
 | Facet | Score |
 |---|---|
 | Discoverability | 53.6 |
-| Contract quality | 42.6 |
+| Contract quality | 48.3 |
 | Contract governance | 79.1 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 42.9 |
-| Access clarity | 23.4 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 28.9 |
 
-**Agent readiness 21.5** — agent-aware
+**Agent readiness 22.8** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -145,10 +139,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Access | — |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
-| Auth Clarity | negotiable (partial credit) |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | — |
-| OpenAPI Examples | — |
+| OpenAPI Examples | partial |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | — |
@@ -161,10 +155,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 33.3** — Employment & Payroll
+**Regulatory alignment 29.4** — Employment & Payroll
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/24sevenoffice/](https://apis.io/providers/24sevenoffice/).
 
